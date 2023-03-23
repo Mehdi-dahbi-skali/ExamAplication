@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/inputbg"
+        android:drawableLeft="@drawable/user_regular"
+        android:drawablePadding="10sp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:hint="Enter Your name"
+        android:inputType="textEmailAddress"
+        android:padding="5sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="50"
+        android:textColor="#48FFFFFF"
+        android:textColorHint="#48FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/nameInput2"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/inputbg"
+        android:drawableLeft="@drawable/mobile_screen_button_solid"
+        android:drawablePadding="10sp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:hint="Enter Your Phone no"
+        android:inputType="textEmailAddress"
+        android:padding="5sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="50"
+        android:textColor="#48FFFFFF"
+        android:textColorHint="#48FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput" />
+
+    <EditText
+        android:id="@+id/nameInput3"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/inputbg"
+        android:drawableLeft="@drawable/outline_email_24"
+        android:drawablePadding="10sp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:padding="5sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="50"
+        android:textColor="#48FFFFFF"
+        android:textColorHint="#48FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/nameInput2" />
+
+    <EditText
+        android:id="@+id/nameInput4"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/inputbg"
+        android:drawableLeft="@drawable/key_solid"
+        android:drawablePadding="10sp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:hint="Enter Your Passworld"
+        android:inputType="textEmailAddress"
+        android:padding="5sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="50"
+        android:textColor="#48FFFFFF"
+        android:textColorHint="#48FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/nameInput3" />
+
+    <EditText
+        android:id="@+id/nameInput5"
+        android:layout_width="280sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/inputbg"
+        android:drawableLeft="@drawable/key_solid"
+        android:drawablePadding="10sp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:hint="Confirm Passworld"
+        android:inputType="textEmailAddress"
+        android:padding="5sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="50"
+        android:textColor="#48FFFFFF"
+        android:textColorHint="#48FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/nameInput4" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Phone No"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameInput2"
+        app:layout_constraintStart_toStartOf="@+id/nameInput2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameInput3"
+        app:layout_constraintStart_toStartOf="@+id/nameInput3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Passworld"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameInput4"
+        app:layout_constraintStart_toStartOf="@+id/nameInput4" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Confirme Passworld"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/nameInput5"
+        app:layout_constraintStart_toStartOf="@+id/nameInput5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/loginbtn"
+        android:backgroundTint="@color/white"
+        android:text="Register"
+        android:textColor="#008EFF"
+        app:layout_constraintEnd_toEndOf="@+id/nameInput5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nameInput5"
+        app:layout_constraintTop_toBottomOf="@+id/nameInput5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="34dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="34dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Full Name"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailInput"
+        app:layout_constraintStart_toStartOf="@+id/emailInput" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="687dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="50dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have a acount "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/buttonLogin"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLogin"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="@+id/textView8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
